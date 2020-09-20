@@ -1,15 +1,12 @@
 import React from 'react'
-import Intro from '../Intro'
 import { Wrapper, InfoWrapper, Content, StyledWeekDistance, StyledImage } from './style'
 import { Loader } from '../../style/shared'
 
 const ProfileIntroSection = ({ content }) => 
   <Wrapper>
     <InfoWrapper>
-      <Intro fixed={false} />
       <Content>{content()}</Content>
     </InfoWrapper>
-    <StyledWeekDistance />
     <StyledImage 
       src="/images/profile/profile.jpg"
       alt="Big Towers Look Menacing"

@@ -6,10 +6,7 @@ const Menu = () =>
   <Wrapper>
     <Nav>
       <NavItem>
-        <a href="https://twitter.com/_nischalmainali" rel="noopener noreferrer" target="_blank">Twitter</a>
-      </NavItem>
-      <NavItem>
-        <a href="https://www.instagram.com/nisch.mainali/" rel="noopener noreferrer" target="_blank">Instagram</a>
+        <a href="https://twitter.com/nischmainali" rel="noopener noreferrer" target="_blank">Twitter</a>
       </NavItem>
       <NavItem>
         <a href="https://github.com/5183nischal" rel="noopener noreferrer" target="_blank">Github</a>
@@ -25,7 +22,7 @@ const Menu = () =>
       {/*<NavItem>
         <NavLink to='/works'>Work</NavLink>
       </NavItem>*/}
-      <NavItem highlight><EmailMe text="Contact"/>
+      <NavItem highlight><EmailMe text="Email"/>
     </NavItem>
     </Nav>
   </Wrapper>

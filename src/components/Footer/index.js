@@ -5,12 +5,10 @@ import { Wrapper, Item } from './style'
 const Footer = () =>
   <Wrapper>
     <Item position='left'>
-      nullius in verba
+      <span> Canberra &nbsp;-&nbsp; Jerusalem</span>
     </Item>
     <Item position='right'>
-      <span> p.i. 5347183&nbsp;-&nbsp;</span>
-      
-      <a target="_blank" rel="noopener noreferrer" href='mms.io'>mms.io</a>
+      <a href='https://spinglass.xyz'>spinglass.xyz</a>
     </Item>
   </Wrapper>
 

@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    siteUrl: 'https://www.michelemazzucco.it/'
+    siteUrl: 'https:/nischalmainali.xyz/'
   },
   plugins: [
     {

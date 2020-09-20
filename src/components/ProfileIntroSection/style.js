@@ -64,7 +64,7 @@ export const StyledWeekDistance = styled(WeekDistance)`
 `
 
 export const InfoWrapper = styled.header`
-  grid-row: 2 / 4;
+  grid-row: 1 / 4;
   grid-column: 1 / 6;
   z-index: 3;
   ${media.md`
@@ -77,7 +77,7 @@ export const InfoWrapper = styled.header`
 `
 
 export const Content = styled.main`
-  margin-top: 1rem;
+  margin-top: 0rem;
   line-height: 1.8em;
   color: ${colors.gray500};
   ${media.sm`
@@ -89,10 +89,11 @@ export const Content = styled.main`
   }
 
   a {
-    color: #fff;
+    color: ${colors.gray500};
     border-bottom: 1px dotted ${colors.gray500};
     
     &:hover {
+      color: #fff;
       border-bottom-color: ${colors.yellow500};
     }
   }
