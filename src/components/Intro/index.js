@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper, Title } from './style'
+import { Title } from './style'
 import ProfileIntroSection from '../ProfileIntroSection'
 import { ContentWrapper } from '../../style/shared'
 import Head from '../Head'
