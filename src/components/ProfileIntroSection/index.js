@@ -10,7 +10,7 @@ const ProfileIntroSection = ({ content }) =>
     <StyledImage 
       src="/images/profile/profile.jpg"
       alt="Big Towers Look Menacing"
-      loader={({ isLoaded }) => <Loader isLoaded={isLoaded} />}
+      // loader={({ isLoaded }) => <Loader isLoaded={isLoaded} />}
       sources={[{
         media: 'max-width: 40rem',
         srcset: [
