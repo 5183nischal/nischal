@@ -16,8 +16,8 @@ export const Wrapper = styled.section`
 `
 
 export const StyledImage = styled(Image)`
-  grid-area: 1 / 4 / last-line / end;
-  background: ${colors.blue900};
+  grid-area: 1 / 4 / last-line/ end;
+  background: ${colors.image};
   position: relative;
   overflow: hidden;
 
@@ -40,7 +40,7 @@ export const StyledImage = styled(Image)`
     bottom: -100%;
     left: -100%;
     mix-blend-mode: lighten;
-    opacity: .1;
+    opacity: .2;
     display: block;
     object-fit: cover;
     ${media.sm`

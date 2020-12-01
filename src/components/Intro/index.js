@@ -21,14 +21,14 @@ export default () => {
               <br></br>
               <br></br>
               <Title>
-                Hi, I am Nisch. I <span>study</span> think about
-                minds & machines.
+                Hi, I am Nischal. I study
+                minds <span>and</span> machines.
               </Title>  
               <br></br>      
-              <p>At <a href="https://elsc.huji.ac.il" target="_blank" rel="noopener noreferrer">ELSC</a>, I study the generalization property of the brain and Artificial Neural Networks.<br></br>
-              More generally, I am also interested in Consciousness (and the philosophy behind it),<br></br> system Neuroscience, and learning algorithms.</p>
-              <p>At <a href="https://3ainstitute.cecs.anu.edu.au" target="_blank" rel="noopener noreferrer">3ai</a>, I focus on bringing AI to scale safely and responsibly. <br></br>
-              In particular, I am interested in the question of agency in complex systems <br></br> and adversarial responses malicious systems.</p>
+              <p>At <a href="https://elsc.huji.ac.il" target="_blank" rel="noopener noreferrer">ELSC</a>, I study the learning and compational property of the brain and Artificial Neural Networks.<br></br>
+              More broadly, I am also interested in consciousness (and the philosophy behind it),<br></br> dynamics, and control.</p>
+              <p>At <a href="https://3ainstitute.cecs.anu.edu.au" target="_blank" rel="noopener noreferrer">3ai</a>, I focus on bringing AI to scale. <br></br>
+              In particular, I am interested in the question of responsibility in complex systems <br></br> and adversarial responses malicious systems.</p>
             </>
           }
         />
